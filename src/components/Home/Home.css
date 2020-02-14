@@ -1,5 +1,8 @@
 .header {
-  background-color: pink;
+  background-image: url("/images/labrador-retriever.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
   height: 100vh;
   display: flex;
   justify-content: flex-start;
@@ -11,8 +14,9 @@
   padding-top: 2%;
   padding-bottom: 2%;
   padding-left: 10vw;
+  padding-right: 10vw;
   height: fit-content;
-  width: 50vw;
+  width: 40vw;
   background-color: rgba(0, 0, 0, 0.384);
 }
 
@@ -25,4 +29,13 @@
 
 .subtitle {
   color: white;
+  font-size: 1em;
+  font-weight: 200;
+}
+
+/* SECTIONS */
+
+section {
+  background-color: plum;
+  height: 50vh;
 }

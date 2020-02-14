@@ -1,0 +1,18 @@
+.parallax {
+  /* background-color: lightblue; */
+  height: 70vh;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.parallax1 {
+  background-image: url("/images/bantersnaps-pCyF1HIMovI-unsplash.jpg");
+}
+.parallax2 {
+  background-image: url("/images/jack-millard-jR3YdXK2Jzg-unsplash.jpg");
+}
+.parallax3 {
+  background-image: url("/images/emerson-peters-oBCT3obZ6OY-unsplash.jpg");
+}
