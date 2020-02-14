@@ -10,11 +10,10 @@
 }
 
 .logo {
-
 }
 
 .links {
-    width: 50vw;
-    display: flex;
-    justify-content: space-evenly;
+  width: 50vw;
+  display: flex;
+  justify-content: space-evenly;
 }

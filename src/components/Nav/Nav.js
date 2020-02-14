@@ -13,8 +13,10 @@ class Nav extends Component {
   render() {
     return (
       <div className="nav">
-        <div className="logo">🐶 Kartanon Kirsut</div>
-        <div className='links'>
+        <NavLink to="/" exact activeClassName="class-nav-link">
+          <div className="logo">🐶 Kartanon Kirsut</div>
+        </NavLink>
+        <div className="links">
           <NavLink
             to="/about-us"
             exact
