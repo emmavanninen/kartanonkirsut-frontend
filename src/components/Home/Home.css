@@ -1,0 +1,102 @@
+.header {
+  background-image: url("/images/labrador-retriever.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.titlediv {
+  text-align: left;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  padding-left: 10vw;
+  padding-right: 10vw;
+  height: fit-content;
+  width: 40vw;
+  background-color: rgba(0, 0, 0, 0.384);
+}
+
+.title {
+  font-size: 2em;
+  text-transform: uppercase;
+  font-weight: 200;
+  color: white;
+}
+
+.subtitle {
+  color: white;
+  font-size: 1em;
+  font-weight: 200;
+}
+
+/* SECTIONS */
+
+section {
+  color: black;
+  background-color: white;
+  min-height: 50vh;
+  height: fit-content;
+}
+
+.section1 {
+  background-color: rgb(211, 238, 247);
+  margin-left: 5vw;
+  margin-right: 5vw;
+  margin-top: 3vw;
+  margin-bottom: 3vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.section1Icon {
+  cursor: pointer;
+  border: 1px solid black;
+  height: 200px;
+  width: 200px;
+}
+
+.section2 {
+  padding-left: 5vw;
+  padding-right: 5vw;
+  height: 70vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.aboutTitle {
+  margin-top: 0;
+  text-align: left;
+  font-size: 1.5em;
+  font-weight: 200;
+}
+
+.about {
+  text-align: left;
+  margin: 5%;
+  font-weight: 200;
+}
+
+.section2 img {
+  height: 80%;
+  width: auto;
+}
+
+.section3 {
+  padding-left: 5vw;
+  padding-right: 5vw;
+  height: fit-content;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+
