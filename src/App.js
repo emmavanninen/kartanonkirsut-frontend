@@ -1,24 +1,28 @@
-import React from 'react';
-import './App.css';
+import React, { Component } from "react"
+import {
+  BrowserRouter as Router
+  // , Route, Switch, Link
+} from "react-router-dom"
+import "./App.css"
+import Nav from "./components/Nav/Nav"
+import Home from "./components/Home/Home"
+import MainRouter from "./MainRouter"
+import Spinner from "./components/Spinner/Spinner"
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+export default class App extends Component {
+  state = {}
+
+  render() {
+    return (
+      <>
+        <div className="App">
+          <Router>
+            <React.Suspense fallback={<Spinner />}>
+              <MainRouter />
+            </React.Suspense>
+          </Router>
+        </div>
+      </>
+    )
+  }
 }
-
-export default App;
