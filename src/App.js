@@ -4,8 +4,6 @@ import {
   // , Route, Switch, Link
 } from "react-router-dom"
 import "./App.css"
-import Nav from "./components/Nav/Nav"
-import Home from "./components/Home/Home"
 import MainRouter from "./MainRouter"
 import Spinner from "./components/Spinner/Spinner"
 
