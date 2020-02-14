@@ -1,0 +1,28 @@
+.header {
+  background-color: pink;
+  height: 100vh;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.titlediv {
+  text-align: left;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  padding-left: 10vw;
+  height: fit-content;
+  width: 50vw;
+  background-color: rgba(0, 0, 0, 0.384);
+}
+
+.title {
+  font-size: 2em;
+  text-transform: uppercase;
+  font-weight: 200;
+  color: white;
+}
+
+.subtitle {
+  color: white;
+}
