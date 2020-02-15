@@ -1,7 +1,7 @@
 import React, { Component } from "react"
 import Header from "../Header/Header"
 import GoogleMap from "../GoogleMap/GoogleMap"
-import Contact from '../Contact/Contact'
+import Contact from "../Contact/Contact"
 import "./Home.css"
 import "./Parallax.css"
 
@@ -11,9 +11,33 @@ export default class Home extends Component {
       <div className="home">
         <Header />
         <section className="section1">
-          <div className="section1Icon section1IconLink1"></div>
-          <div className="section1Icon section1IconLink2"></div>
-          <div className="section1Icon section1IconLink3"></div>
+          <div className="section1Icon section1Link">
+            <img src="/images/bone.png" alt="icon" />
+            <h5>Title</h5>
+            <div className="section1LinkText">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi
+              accusamus nam reprehenderit quaerat iste cum nostrum mollitia
+              consequatur quos
+            </div>
+          </div>
+          <div className="section1Icon section1Link">
+            <img src="/images/pawprint.png" alt="icon" />
+            <h5>Title</h5>
+            <div className="section1LinkText">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi
+              accusamus nam reprehenderit quaerat iste cum nostrum mollitia
+              consequatur quos
+            </div>
+          </div>
+          <div className="section1Icon section1Link">
+            <img src="/images/hot-dog.png" alt="icon" />
+            <h5>Title</h5>
+            <div className="section1LinkText">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi
+              accusamus nam reprehenderit quaerat iste cum nostrum mollitia
+              consequatur quos
+            </div>
+          </div>
         </section>
         <div className="parallax parallax1"></div>
         <section className="section2">
@@ -51,7 +75,7 @@ export default class Home extends Component {
         <div className="parallax parallax2"></div>
         <section className="section3">
           <div className="contactUs">
-              <Contact/>
+            <Contact />
           </div>
           <div className="location">
             <GoogleMap />

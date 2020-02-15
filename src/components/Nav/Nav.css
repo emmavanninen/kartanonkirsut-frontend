@@ -1,7 +1,10 @@
 .nav {
+  z-index: 10;
+  position: fixed;
   padding-left: 5vw;
   padding-right: 5vw;
-  background-color: aqua;
+  background-color: rgba(0, 0, 0, 0.384);
+  width: 100%;
   height: 10vh;
   display: flex;
   flex-direction: row;
@@ -9,11 +12,39 @@
   align-items: center;
 }
 
+a {
+  padding: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 2px;
+  color: rgb(227, 241, 211);
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 300;
+  text-align: end;
+}
+
+a:hover {
+  /* background-color: rgba(0, 0, 0, 0.082); */
+  /* border-radius: 50px; */
+  color: white;
+  text-decoration-line: underline;
+  transition: ease-in-out 200ms;
+}
+
 .logo {
+  color: rgb(227, 241, 211);
+  font-size: 1.5em;
+  text-transform: uppercase;
+  font-weight: 200;
 }
 
 .links {
   width: 50vw;
   display: flex;
   justify-content: space-evenly;
+}
+
+.homeIcon {
+  height: 1.2em;
 }

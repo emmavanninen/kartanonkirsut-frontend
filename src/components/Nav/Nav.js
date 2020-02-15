@@ -13,22 +13,39 @@ class Nav extends Component {
   render() {
     return (
       <div className="nav">
-        <NavLink to="/" exact activeClassName="class-nav-link">
-          <div className="logo">🐶 Kartanon Kirsut</div>
-        </NavLink>
+        {/* <NavLink to="/" exact activeClassName="class-nav-link"> */}
+        <div className="logo">🐶 Kartanon Kirsut</div>
+        {/* </NavLink> */}
         <div className="links">
+          <NavLink to="/" exact activeClassName="class-nav-link navlinktop">
+            <div className="home">
+              <img
+                src="/images/home.png"
+                className="homeIcon"
+                alt="home icon"
+              />
+            </div>
+          </NavLink>
           <NavLink
             to="/about-us"
             exact
-            activeClassName="class-nav-link"
+            activeClassName="class-nav-link navlinktop"
             onClick={this.handleLinkClick}
           >
             About us
           </NavLink>
-          <NavLink to="/rates" exact activeClassName="class-nav-link">
+          <NavLink
+            to="/rates"
+            exact
+            activeClassName="class-nav-link navlinktop"
+          >
             Prices
           </NavLink>{" "}
-          <NavLink to="/booking" exact activeClassName="class-nav-link">
+          <NavLink
+            to="/booking"
+            exact
+            activeClassName="class-nav-link navlinktop"
+          >
             Booking
           </NavLink>
         </div>
