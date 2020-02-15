@@ -20,7 +20,7 @@ export default class MainRouter extends Component {
           <Route exact path="/rates" component={Rates}></Route>
           <Route exact path="/booking" component={Booking}></Route>
         </Switch>
-        <Footer />
+        {/* <Footer /> */}
       </div>
     )
   }

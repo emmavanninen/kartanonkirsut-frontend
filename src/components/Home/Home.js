@@ -1,5 +1,6 @@
 import React, { Component } from "react"
 import Header from "../Header/Header"
+import Footer from "../Footer/Footer"
 import GoogleMap from "../GoogleMap/GoogleMap"
 import Contact from "../Contact/Contact"
 import "./Home.css"
@@ -81,7 +82,9 @@ export default class Home extends Component {
             <GoogleMap />
           </div>
         </section>
-        <div className="parallax parallax3"></div>
+        <div className="parallax parallax3">
+            <Footer/>
+        </div>
       </div>
     )
   }

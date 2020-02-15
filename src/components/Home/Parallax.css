@@ -13,5 +13,9 @@
   background-image: url("/images/jack-millard-jR3YdXK2Jzg-unsplash.jpg");
 }
 .parallax3 {
+  height: 90vh;
   background-image: url("/images/emerson-peters-oBCT3obZ6OY-unsplash.jpg");
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
 }

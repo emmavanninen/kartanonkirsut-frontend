@@ -1,7 +1,5 @@
 .footer {
-  margin-left: 1vw;
-  margin-right: 1vw;
-  background-color: white;
+  background-color: rgba(0, 0, 0, 0.384);
   min-height: 45vh;
   height: fit-content;
   display: flex;
@@ -11,6 +9,7 @@
 }
 
 .footerIcon {
+  color: rgb(227, 241, 211);
   text-transform: uppercase;
   font-size: 0.8em;
   font-weight: 200;
@@ -29,8 +28,9 @@
 }
 
 ul > h5 {
+     color: rgb(227, 241, 211);
   text-transform: uppercase;
-  font-size: 1.1em;
+  font-size: 1.2em;
   font-weight: 300;
   margin-bottom: 5px;
 }
@@ -38,15 +38,4 @@ ul > h5 {
 ul {
   text-align: left;
   list-style: none;
-}
-
-.footerlink {
-  color: rgb(54, 56, 51);
-}
-
-.footerlink:hover {
-  color: rgb(107, 124, 68);
-  font-weight: 400;
-  text-decoration-line: none;
-  transition: none;
 }
