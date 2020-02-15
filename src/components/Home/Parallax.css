@@ -19,3 +19,21 @@
   flex-direction: column;
   justify-content: flex-end;
 }
+
+@media only screen and (max-width: 600px) {
+  .parallax {
+    height: 60vh;
+  }
+  .parallax1 {
+    background-position: 20%;
+  }
+    .parallax2 {
+    background-position: 51%;
+  }
+    .parallax3 {
+    background-position: 65%;
+    height: 90vh;
+  }
+
+  
+}

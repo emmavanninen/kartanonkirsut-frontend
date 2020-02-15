@@ -25,8 +25,6 @@ a {
 }
 
 a:hover {
-  /* background-color: rgba(0, 0, 0, 0.082); */
-  /* border-radius: 50px; */
   color: white;
   text-decoration-line: underline;
   transition: ease-in-out 200ms;
@@ -48,4 +46,18 @@ a:hover {
 
 .homeIcon {
   height: 1.2em;
+}
+
+@media only screen and (max-width: 600px) {
+    .nav{
+        top: 0;
+        left:0;
+        width: 100%;
+    }
+  .logo {
+    font-size: 0.9em;
+  }
+  a {
+    display: none;
+  }
 }
