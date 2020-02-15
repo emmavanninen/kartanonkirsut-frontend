@@ -90,17 +90,15 @@ section {
   margin-bottom: 0;
 }
 
-
-.section1LinkText{
-font-weight: 200;
+.section1LinkText {
+  font-weight: 200;
 }
 
-
-
 .section2 {
-  padding-left: 5vw;
+  padding-left: 10vw;
   padding-right: 5vw;
-  height: 70vh;
+  min-height: 70vh;
+  height: fit-content;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
@@ -115,13 +113,14 @@ font-weight: 200;
 }
 
 .about {
+  width: 70%;
   text-align: left;
   margin: 5%;
   font-weight: 200;
 }
 
 .section2 img {
-  height: 80%;
+  height: 500px;
   width: auto;
 }
 

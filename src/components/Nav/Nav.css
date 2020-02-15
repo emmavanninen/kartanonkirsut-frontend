@@ -2,7 +2,7 @@
   z-index: 10;
   position: fixed;
   padding-left: 5vw;
-  padding-right: 5vw;
+  padding-right: 10vw;
   background-color: rgba(0, 0, 0, 0.384);
   width: 100%;
   height: 10vh;
@@ -40,7 +40,8 @@ a:hover {
 }
 
 .links {
-  width: 50vw;
+  padding-right: 10vw;
+  width: 40vw;
   display: flex;
   justify-content: space-evenly;
 }
