@@ -12,6 +12,11 @@
   align-items: center;
 }
 
+.phoneMenu {
+  width: fit-content;
+  display: none;
+}
+
 a {
   padding: 5px;
   padding-left: 10px;
@@ -48,16 +53,28 @@ a:hover {
   height: 1.2em;
 }
 
-@media only screen and (max-width: 600px) {
-    .nav{
-        top: 0;
-        left:0;
-        width: 100%;
-    }
+@media only screen and (max-width: 730px) {
+  .nav {
+    width: 90vw;
+    top: 0;
+    left: 0;
+    background-color: rgba(255, 255, 255, 0);
+    justify-content: space-between;
+  }
+  .links {
+    display: none;
+  }
+
+  .phoneMenu {
+    display: inline;
+  }
+
+  .phoneMenu img {
+    height: 5vh;
+  }
+
   .logo {
     font-size: 0.9em;
-  }
-  a {
-    display: none;
+    color: black;
   }
 }

@@ -9,42 +9,42 @@ import "./Parallax.css"
 export default class Home extends Component {
   render() {
     return (
-      <div className="home">
+      <div className='home'>
         <Header />
-        <section className="section1">
-          <div className="section1Icon section1Link">
-            <img src="/images/bone.png" alt="icon" />
+        <section className='section1' id='section1'>
+          <div className='section1Icon section1Link'>
+            <img src='/images/bone.png' alt='icon' />
             <h5>Title</h5>
-            <div className="section1LinkText">
+            <div className='section1LinkText'>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi
               accusamus nam reprehenderit quaerat iste cum nostrum mollitia
               consequatur quos
             </div>
           </div>
-          <div className="section1Icon section1Link">
-            <img src="/images/pawprint.png" alt="icon" />
+          <div className='section1Icon section1Link'>
+            <img src='/images/pawprint.png' alt='icon' />
             <h5>Title</h5>
-            <div className="section1LinkText">
+            <div className='section1LinkText'>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi
               accusamus nam reprehenderit quaerat iste cum nostrum mollitia
               consequatur quos
             </div>
           </div>
-          <div className="section1Icon section1Link">
-            <img src="/images/hot-dog.png" alt="icon" />
+          <div className='section1Icon section1Link'>
+            <img src='/images/hot-dog.png' alt='icon' />
             <h5>Title</h5>
-            <div className="section1LinkText">
+            <div className='section1LinkText'>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi
               accusamus nam reprehenderit quaerat iste cum nostrum mollitia
               consequatur quos
             </div>
           </div>
         </section>
-        <div className="parallax parallax1"></div>
-        <section className="section2">
+        <div className='parallax parallax1'></div>
+        <section className='section2' id='section2'>
           <div>
-            <h5 className="aboutTitle">About us</h5>
-            <div className="about">
+            <h5 className='aboutTitle'>About us</h5>
+            <div className='about'>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut
               animi, praesentium veritatis sint accusantium illum dicta
               laboriosam esse! Tempora distinctio aperiam assumenda architecto
@@ -69,21 +69,21 @@ export default class Home extends Component {
             </div>
           </div>
           <img
-            src="/images/garrett-karoski-1780KxFn2fQ-unsplash.jpg"
-            alt="about us img"
+            src='/images/garrett-karoski-1780KxFn2fQ-unsplash.jpg'
+            alt='about us img'
           />
         </section>
-        <div className="parallax parallax2"></div>
-        <section className="section3">
-          <div className="contactUs">
+        <div className='parallax parallax2'></div>
+        <section className='section3' id='section3'>
+          <div className='contactUs'>
             <Contact />
           </div>
-          <div className="location">
+          <div className='location'>
             <GoogleMap />
           </div>
         </section>
-        <div className="parallax parallax3">
-            <Footer/>
+        <div className='parallax parallax3'>
+          <Footer />
         </div>
       </div>
     )

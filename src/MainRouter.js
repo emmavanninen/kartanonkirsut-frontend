@@ -1,5 +1,6 @@
 import React, { Component } from "react"
 import { Route, Switch } from "react-router-dom"
+// import AnchorLink from 'react-anchor-link-smooth-scroll'
 
 import Nav from "./components/Nav/Nav"
 import Footer from "./components/Footer/Footer"
